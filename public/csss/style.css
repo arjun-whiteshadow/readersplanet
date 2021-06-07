@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255); font-family: 'Arial', sans-serif;
+    text-align: center; margin-top: 110px; font-size: 30pt;
+}
+
+h2 { font-family: Arial, Helvetica, sans-serif;
+    text-align: center; font-size: 30pt; margin-top: -40px;
+}
+
+header{
+    background-image: url('../images/main_bg.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    max-width: 1180px; /* to make bg image responsive*/
+    margin: 0 auto;
+}
+
+.nav-but{
+    float: center;
+    margin-left: 200px;
+    font-size: 125%;
+
+}
+.nav-but li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav-but li a{
+    color: black;
+    text-decoration: none;
+}
+
+.search-bar {
+    position: absolute;
+    margin-top: 150px;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    padding: 30%;
+}
+.search-btn{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    background: #ddd;
+    cursor: pointer;
+
+}
+.search-txt {
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+/*The four column grid floating next to each other*/
+
+.container{
+    margin-top: 525px;
+}
+
+.column {
+    margin-left: -25px;
+    margin-top: -100px;
+    float: left;
+    width: 25%;
+    padding: 10%;
+}  
+
+.desc {
+    text-align: center;
+}

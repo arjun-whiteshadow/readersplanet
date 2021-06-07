@@ -1,0 +1,20 @@
+.nav{
+    max-width: 1180px; /* to make bg image responsive*/
+    margin: 0 auto;
+}
+
+.nav-but{
+    float: center;
+    margin-left: 200px;
+    font-size: 125%;
+
+}
+.nav-but li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav-but li a{
+    color: black;
+    text-decoration: none;
+}
